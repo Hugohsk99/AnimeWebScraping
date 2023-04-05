@@ -24,7 +24,7 @@ main_start = time.time()
 for trat_caracter in charecters[:]:
 
     print("\rProcessing {}.".format(trat_caracter),end='')
-    url = re.legendado('special',trat_caracter,url_lista_animes)
+    #url = re.legendado('special',trat_caracter,url_lista_animes)
     
     # solicitando o código-fonte html do site através da função Request do módulo urllib e lendo-o usando a função urlopen
 
